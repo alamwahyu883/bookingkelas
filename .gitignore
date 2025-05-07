@@ -1,32 +1,40 @@
-.DS_Store
-
-application/cache/*
+# Cache dan logs CI
+/application/cache/*
 !application/cache/index.html
 
-application/logs/*
+/application/logs/*
 !application/logs/index.html
 
 !application/*/.htaccess
 
+# Composer & vendor
 composer.lock
-tests/mocks/database/ci_test.sqlite
+/vendor/
 
+# Config editor / IDE
+.idea/
+.vscode/
+.nbproject/
+.editorconfig
+
+# File sistem lokal
+.DS_Store
+Thumbs.db
+
+# File backup / sementara
+*.bak
+*.swp
+*.tmp
+*.log
+
+# User guide dan build tools
+/tests/mocks/database/ci_test.sqlite
+/tests/tests/
+/tests/results/
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
 
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-/tests/tests/
-/tests/results/
+# File environment (jika ada)
+.env
