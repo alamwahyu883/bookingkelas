@@ -1,0 +1,123 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+.gambar{
+    position: absolute;
+    top: 160px;
+    left: 115px;
+}
+
+.logoparmad1{
+    position: absolute;
+    top: 60px;
+    left: 910px;
+
+}
+
+.teks{
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    color: #15B79A;
+    left: 870px;
+    top: 160px;
+    
+}
+
+.teks-booking{
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    color: #019BB9;
+    text-align: center;
+    left: 900px;
+    top: 210px;
+}
+
+.teks-akun{
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    color: #116479;
+    left: 825px;
+    top: 290px;
+
+}
+.teks-akun .bintang {
+    color: red; /* Warna merah untuk tanda * */
+}
+
+.teks-password{
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    color: #116479;
+    left: 825px;
+    top: 400px;
+
+}
+
+.teks-password .bintang {
+    color: red; /* Warna merah untuk tanda * */
+}
+
+/* style input */
+.formlogin {
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    left: 825px;
+    top: 350px;
+    width: 300px; /* Tentukan lebar maksimal */
+}
+
+/* style input */
+.formlogin input[type="text"]{
+    width: 100%; /* Input mengikuti lebar container */
+    padding: 10px;
+    padding-left: 1px;
+    margin-bottom: 20px; /* Jarak antar input */
+    border: none; /* Hilangkan border default */
+    border-bottom: 2px solid #849299; /* Garis bawah */
+    background-color: transparent; /* Hilangkan background */
+    font-size: 16px; /* Ukuran font */
+    outline: none; /* Hilangkan outline saat klik */
+    transition: border-color 0.3s; /* Efek transisi */
+    font-family: Poppins,sans-serif; 
+    color: #116479b3;
+    font-weight: 700;
+}
+
+/* style input */
+.formlogin input[type="password"] {
+    width: 100%; 
+    padding: 10px;
+    padding-left: 1px;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    border: none; 
+    border-bottom: 2px solid #849299; 
+    background-color: transparent; 
+    font-size: 16px; 
+    font-family: Poppins,sans-serif;
+    outline: none; 
+    transition: border-color 0.3s; 
+    color: #116479b3;
+    font-weight: 700;
+}
+
+/* style sign in */
+.formlogin .login-btn {
+    width: 85%; /* Tombol selebar form */
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px; /* Jarak antara tombol dan input */
+    background-color: #007BFF; /* Warna biru */
+    color: #FFFFFF; /* Warna teks putih */
+    border: none;
+    border-radius: 25px; /* Sudut membulat */
+    font-size: 16px;
+    font-family: Poppins, sans-serif; /* Font konsisten dengan form */
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-weight: 700;
+}
+
+/* error login */

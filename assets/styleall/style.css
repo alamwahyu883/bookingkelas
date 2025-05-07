@@ -1,0 +1,415 @@
+.hd{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 1371px;
+    height: 76px;
+    background-color: #38A1E4;
+}
+
+/* kotak login */
+.kotaklogin{
+ position: absolute;
+ left: 260px; 
+ top: 150px;
+ width: 1046px;
+ height: 250px;
+ border-radius: 25px;
+ background-color: #38A1E4;
+}
+
+/* Teks Pengguna ketika login */
+.tekskotakpengguna{
+    position: absolute;
+    left: 365px;
+    text-align: center;
+    top: 70px;
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* Teks Pengguna ketika login */
+.tekskotakpengguna2{
+    position: absolute;
+    left: 330px;
+    top: 130px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* gambar 3d */
+img.buktas{
+    position: absolute;
+    top: 5px;
+}
+
+img.bukga{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/* kotak kelas kecil */
+.kotak-klskcl{
+    position: absolute;
+    left: 260px; 
+    bottom: 20px;
+    width: 268px;
+    height: 226px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    background-color: #38A1E4;
+}
+
+/* Icon Kelas Kecil */
+img.kelas-kcl{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    
+}
+
+/* teks Dashboard */
+.teks{
+    position: absolute;
+    left: 270px;
+    top: 111px;
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Poppins, sans-serif;
+
+}
+
+/* teks kelas kecil */
+.tekskelas{
+    position: absolute;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    color: #FFFFFF;
+    top: 60px;
+    left: 25px;
+}
+
+/* teks angka */
+.angkakelas{
+    position: absolute;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: Poppins, sans-serif;
+    color: #FFFFFF;
+    top: 100px;
+    left: 25px;
+}
+
+/* teks kelas kecil(per hari ini) */
+.teksharini{
+    position: absolute;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    color: #FFFFFF;
+    top: 170px;
+    left: 25px;
+}
+
+/* kotak kelas besar */
+.kotak-klsbsr{
+    position: absolute;
+    left: 650px; 
+    bottom: 20px;
+    width: 268px;
+    height: 226px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    background-color: #38A1E4;
+}
+
+/* kotak pinjam alat */
+.kotak-pinjam{
+    position: absolute;
+    left: 1030px;
+    bottom: 20px;
+    width: 268px;
+    height: 226px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    background-color: #38A1E4;
+}
+
+/* Search bar in header */
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 270px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    width: 380px;
+}
+
+/* Logout button */
+.logout-btn {
+    position: absolute;
+    right: 110px;
+    top: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    background-color: #FF2020;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.logout-btn:hover {
+   background-color: #FF2020;
+   text-decoration: none; /* Menghilangkan garis bawah */
+
+}
+
+.profile1{
+    position: absolute;
+    top: 17px;
+    right: 45px;
+    
+}
+
+
+
+/* navbar kiri */
+.navkiri{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 233px;
+    height: 686px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo{
+    position: absolute;
+    left: 55px;
+    top: 20px;
+    align-content: center;
+}
+
+/* Sidebar */
+.sidebar {
+    position: absolute; /* Sesuaikan posisi */
+    top: 90px; /* Geser ke bawah agar tidak menempel dengan logo */
+    left: 15px; /* Sedikit margin dari kiri */
+    width: 200px; /* Lebar sidebar */
+    font-family: Poppins, sans-serif;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Hilangkan margin bawaan */
+}
+.sidebar ul li {
+    margin: 10px ;
+    display: block;
+    align-items: center; /* Ikon dan teks sejajar secara vertikal */
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #5D7285;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+/* sidebar dashboard */
+.sidebar ul li img.icon {
+    width: 29px; /* Ukuran ikon */
+    height: 29px;
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    transition: filter 0.3s; /* Transisi untuk efek hover pada ikon */
+}
+
+
+.container {
+    position: absolute;
+    left: 240px;
+    top: 150px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    border-collapse: collapse;
+    font-family: Poppins, sans-serif;
+    width: 100%;
+  }
+
+  .tabelcustom th, .tabelcustom td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .tabelcustom th {
+    background-color: #f9f9f9;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .tabelcustom .status {
+    display: inline-block;
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none; /* Agar teks tombol tidak bergaris bawah */
+    border: 2px solid transparent;
+  }
+
+  .tabelcustom .disetujui {
+    background-color: #6BF882; /* Hijau */
+  }
+
+  .tabelcustom .ditolak {
+    background-color: #FF4242; /* Merah */
+  }
+
+  .tabelcustom .pending {
+    background-color: #FAB12F; /* Warna kuning */
+}
+
+  .btn-tambah {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00c853;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Agar teks tombol tidak bergaris bawah */
+  }
+
+  .btn-tambah:hover {
+    background-color: #009624; /* Warna lebih gelap saat hover */
+  }
+ 
+  .tabelcustom td[colspan="2"] {
+    text-align: center; /* Teks rata tengah */
+  }
+
+
+  .edit {
+    width: 20px; /* Ukuran lebar ikon */
+    height: 20px; /* Ukuran tinggi ikon */
+    margin-left: 8px; /* Jarak antara ikon dan teks "Ditolak" */
+    vertical-align: middle; /* Pastikan ikon sejajar secara vertikal dengan teks */
+    cursor: pointer; /* Ubah kursor menjadi tangan saat di-hover */
+  }
+
+  .modal-footer .btn-primary {
+    left: 90px;
+    background-color: #00c853; /* Warna tombol Simpan */
+    color: #ffffff;
+    border: none;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #009624; /* Warna hover tombol Simpan */
+}
+
+.modal-body label {
+    font-weight: 500;
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #828282;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Gaya untuk status menunggu */
+.status.menunggu {
+    background-color: #ffc107; /* Warna kuning */
+    color: #ffffff;          /* Teks putih */
+    padding: 5px 10px;       /* Spasi dalam */
+    border-radius: 5px;      /* Sudut membulat */
+    font-weight: bold;       /* Teks tebal */
+    text-align: center;      /* Rata tengah */
+    display: inline-block;   /* Tampilan seperti badge */
+}
+
+
+/* warna status konfirmasi */
+.btn-approve {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6BF882;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Agar teks tombol tidak bergaris bawah */
+}
+
+.btn-approve:hover {
+    background-color: #58E06A; /* Warna hover */
+}
+
+.btn-reject {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FF4242;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Agar teks tombol tidak bergaris bawah */
+}
+
+.btn-reject:hover {
+    background-color: #E03838; /* Warna hover */
+}
